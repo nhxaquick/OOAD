@@ -7,13 +7,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>Education.ico</ApplicationIcon>
+    <ApplicationIcon>icons\Education.ico</ApplicationIcon>
     <StartupObject></StartupObject>
     <AnalysisLevel>5.0-recommended</AnalysisLevel>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Education.ico" />
+    <Content Include="icons\Education.ico" />
   </ItemGroup>
 
   <ItemGroup>

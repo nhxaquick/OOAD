@@ -57,3 +57,4 @@ D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Debug\net6.
 D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Debug\net6.0-windows\Student-Management.pdb
 D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Debug\net6.0-windows\Student-Management.genruntimeconfig.cache
 D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Debug\net6.0-windows\ref\Student-Management.dll
+D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Debug\net6.0-windows\Student-Management.sourcelink.json
