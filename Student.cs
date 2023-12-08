@@ -161,12 +161,12 @@ namespace Student_Management
 
         private void radio_male_CheckedChanged(object sender, EventArgs e)
         {
-            gender = "male";
+            gender = "Male";
         }
 
         private void radio_female_CheckedChanged(object sender, EventArgs e)
         {
-            gender = "female";
+            gender = "Female";
         }
 
         private void dataGrid_CellContentClick(object sender, DataGridViewCellEventArgs? e)

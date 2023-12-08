@@ -37,6 +37,7 @@
             dataGridViewBindingSource1 = new BindingSource(components);
             dataGridViewBindingSource = new BindingSource(components);
             dataGridViewTextBoxEditingControlBindingSource = new BindingSource(components);
+            btnRefresh = new Button();
             ((System.ComponentModel.ISupportInitialize)dvg1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewBindingSource1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewBindingSource).BeginInit();
@@ -54,7 +55,7 @@
             // 
             // btnBack
             // 
-            btnBack.Location = new Point(978, 617);
+            btnBack.Location = new Point(912, 617);
             btnBack.Name = "btnBack";
             btnBack.Size = new Size(94, 29);
             btnBack.TabIndex = 0;
@@ -64,7 +65,7 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(1112, 617);
+            btnDelete.Location = new Point(1012, 617);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(94, 29);
             btnDelete.TabIndex = 3;
@@ -101,12 +102,23 @@
             // 
             dataGridViewTextBoxEditingControlBindingSource.DataSource = typeof(DataGridViewTextBoxEditingControl);
             // 
+            // btnRefresh
+            // 
+            btnRefresh.Location = new Point(1112, 617);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(94, 29);
+            btnRefresh.TabIndex = 6;
+            btnRefresh.Text = "REFRESH";
+            btnRefresh.UseVisualStyleBackColor = true;
+            btnRefresh.Click += btnRefresh_Click;
+            // 
             // Search
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
             ClientSize = new Size(1262, 673);
+            Controls.Add(btnRefresh);
             Controls.Add(dvg1);
             Controls.Add(btnSearch);
             Controls.Add(btnDelete);
@@ -134,5 +146,6 @@
         private BindingSource dataGridViewBindingSource1;
         private BindingSource dataGridViewBindingSource;
         private BindingSource dataGridViewTextBoxEditingControlBindingSource;
+        private Button btnRefresh;
     }
 }

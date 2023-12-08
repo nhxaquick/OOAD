@@ -26,3 +26,9 @@ D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Release\net
 D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Release\net6.0-windows\Student-Management.pdb
 D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Release\net6.0-windows\Student-Management.genruntimeconfig.cache
 D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Release\net6.0-windows\ref\Student-Management.dll
+D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\bin\Release\net6.0-windows\Microsoft.VisualStudio.Interop.dll
+D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\bin\Release\net6.0-windows\Microsoft.VisualStudio.OLE.Interop.dll
+D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\bin\Release\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\bin\Release\net6.0-windows\WinForms.DataVisualization.dll
+D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Release\net6.0-windows\Student_Management.Statistic.resources
+D:\IT-Year 4 24Gen\OOAD and Prog\Project OOAD\Student-Management\obj\Release\net6.0-windows\Student-Management.sourcelink.json

@@ -176,7 +176,24 @@ namespace Student_Management
         //not fisnish yet search textbox
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionSql))
+            {
+                connection.Open();
+
+                string query = "SELECT * FROM students";
+
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
+
+                dvg1.DataSource = dataTable;
+            }
+            dvg1.Refresh();
         }
     }
 }
